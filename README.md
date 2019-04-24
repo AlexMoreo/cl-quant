@@ -5,7 +5,7 @@ This repository contains the code to replicate the experiments of the article en
 This code is mainly built upon *Scikit-Learn*, *NumPy*, *SciPy*, and *Pandas*, that you might install before proceeding.
 It also utilizes most of the functionalities of [PyDCI](https://github.com/AlexMoreo/pydci) (implementing *Distributional Correspondence Indexing*), 
 [nut](https://github.com/pprett/nut) (implementing *Cross-Lingual Structural Correspondence  Learning*), and [QuaNet](https://github.com/HLT-ISTI/QuaNet).
-Both *PyDCI* and *QuaNet* were implemented by us and included here for the sake of ease (some modifications are required though to use the Prettenhofer's *nut* package, that I can distribute upon request).
+Both *PyDCI* and *QuaNet* were implemented by us and included here for the sake of ease (some modifications are required though to use the Prettenhofer's *nut* package, that I could distribute upon request).
 
 The following scripts can be used to replicate all experiments involving DCI:
 * **generate_dci_vectors.py** produces, for each task, the (numpy) cross-lingual vectors for the training and test documents (*train.vec.npy* and *test.vec.npy*). 
